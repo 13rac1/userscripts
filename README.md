@@ -1,4 +1,14 @@
-##Visited Link Colors UserScript
+# My UserScripts
+
+> A userscript is a program, usually written in JavaScript, for modifying web pages to augment browsing.
+
+-[Userscript on Wikipedia](https://en.wikipedia.org/wiki/Userscript)
+
+Userscripts require:
+* [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) on Chrome
+* [GreaseMonkey](https://addons.mozilla.org/en-us/firefox/addon/greasemonkey/) on Firefox
+
+## Visited Link Colors
 
 Ever notice how many websites neglect to implement visited link colors?
 
@@ -16,7 +26,6 @@ a:visited {
 }
 ```
 
-Requires:
-* [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) on Chrome
-* [GreaseMonkey](https://addons.mozilla.org/en-us/firefox/addon/greasemonkey/) on Firefox
+## Craigslist Map Marker Contrast
 
+Drastic contrast increase for the Map Markers on Craiglist. Still purple, but new and visited are obviously different now.
