@@ -2,10 +2,9 @@
 // @name         Visited Link Colors
 // @version      0.1
 // @description  Ever notice how many websites neglect to implement visited link colors?
-// @oujs:author  eosrei
-// @author       eosrei
-// @copyright    2015 eosrei
-// @license      GPLv3
+// @author       13rac1
+// @copyright    2015
+// @license      MIT
 // @include      *
 // @grant        GM_addStyle
 // ==/UserScript==
@@ -13,7 +12,7 @@
 switch (location.host) {
     case "openuserjs.org":
         GM_addStyle("a:visited {color:#813d0f;}");
-        break;        
+        break;
     case "github.com":
         GM_addStyle(".container a:visited {color:#274a76;}");
         break;
@@ -24,4 +23,3 @@ switch (location.host) {
         GM_addStyle("a:visited .title {color:#408 !important;}");
         break;
 }
-
