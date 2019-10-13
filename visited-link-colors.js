@@ -14,7 +14,7 @@ switch (location.host) {
         GM_addStyle("a:visited {color:#813d0f;}");
         break;
     case "github.com":
-        GM_addStyle(".container a:visited {color:#274a76;}");
+        GM_addStyle("a:visited {color:#274a76;}");
         break;
     case "bitbucket.org":
         GM_addStyle("#content a:visited {color:#274a76;}");
